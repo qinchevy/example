@@ -1,0 +1,7 @@
+host:postgresql
+port:5432
+database:trainingdb
+username:training
+password:tra1n1ng
+proxy:
+

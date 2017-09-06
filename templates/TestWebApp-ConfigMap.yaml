@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: server-config
+  labels:
+    app: payaratest
+data:
+  server-config-file: |-
+    host:postgresql
+    port:5432
+    database:trainingdb
+    username:training
+    password:tra1n1ng
+    proxy:
+
